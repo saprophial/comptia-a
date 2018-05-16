@@ -1,0 +1,249 @@
+The computer requesting a web page is called a ___. The remote computer
+returning the web site is called a ___. *Client; Server*
+
+In networking, anything that one computer might share with another is referred
+to as a *resource*.
+
+To share and access resources, a network must have the following: *Something
+that defines and standardizes the design and operation of cabling, network
+cards, and the interconnection of multiple computers; An addressing method
+enabling clients to find servers and servers to send data to clients; A method
+of sharing resources and accessing those shared resources*
+
+Both clients and servers need *network interface controllers (NICs)* that
+define or label the machine on the network.
+
+Besides addressing, what can a NIC do? *A NIC can break files into smaller data
+units, called frames, to send across the network, and reassemble frames it
+received into whole files.*
+
+How were older network interface coltrollers deployed? *NICs came on an
+expansion card, called the Network Interface Card, which was attached to the
+motherboard. Only the term NIC is likely to show up on the exam.*
+
+What are the most common network topologies? *Ring; Star; Bus; Mesh*
+
+How is a bus topology designed? *All computers connect to the network via a
+main line called a 'bus cable'*
+
+How is a ring topology designed? *All computers on the network attach to a
+central ring of cable.*
+
+How is a star topology designed? *Computers on the network connect to a central
+wiring point, usually called a 'swwitch'*
+
+How is a mesh topology designed? *Each computer has a dedicated line to every
+other computer.*
+
+What concepts are referred to by 'logical topology' and 'physical topology'?
+*Logical topology is the ideal topology as laid out on paper. Physical topology
+is the real-world, generally messier application of a network topology.*
+
+What is a network technology? *A practical application of a topology and other
+critical standards to provide a method of data transmission. It defines
+everything necessary to do so.*
+
+Data is moved from one PC to another in discrete chunks called *frames*.
+
+Every NIC has a built-in identifier called a *media-access control (MAC)
+address*.
+
+A MAC address is a *binary* number.
+
+.*Hexadecimal* is shorthand for reporesenting strings of 1s and 0s.
+
+One hex character is used to represent *four* binary characters.
+
+MAC address, while binary, are represented by using *12* hexadecimal
+characters.
+
+What do all frame varieties have in common? *Contain the MAC address of the
+network card to which data is being sent; Contain the MAC address of the
+network card that sent the data; Some type of data check to verify that data
+was received in full order.*
+
+What algorithm is typically used by frames to ensure data integrity? *A cylic
+redindancy check (CRC)*
+
+What is a term for the various versions of Ethernet? *Ethernet 'flavors'*
+
+What three speeds are most commonly employed in Ethernet networks and how are
+they named?? *10BaseT (10 Mbps); 100BaseT (100Mpbs); 1000BaseT (1000Mpbs, or
+1Gbps-- also called Gigabit ethernet)*
+
+What topology and cable type do the three main Ethernet technologies use? *Star bus topology;
+unshielded twisted pair cable*
+
+What does a star bus topology look like? *A star bus consists of a central
+bus-- a 'switch'-- to which every PC in the network connects via a cable.*
+
+What is the primary advantage of a switch over its predecessor, the hub? *A
+switch makes each port its own separate network, allowing each PC to use the
+full bandwidth. A hub did not do this. All PCs had to share bandwidth.*
+
+Describe the physical attributes of UTP cabling. *UTP cables use AWG 22-26
+gauge wire twisted together into color-coded pairs. Each wire is individually
+insulated and encased as a group in a common jacket.*
+
+What is bandwidth? *The maximum speed at which data can be transferred.*
+
+UTP cables come in categories that define *the maximum speed at which data can
+be transferred.*
+
+What are the major categories (CATs) of ethernet cabling (name and speed or
+purpose). *CAT 1: standard telephone line; CAT 3: designed for 10Mpbs networks,
+a variant supports 100Mbps speeds; CAT 5: designed for 100 Mbps networks;
+CAT5e: Enhanced to handle 1000Mbps networks; CAT6: Supports 1000Mbps networks
+at 100-meter segments and 10Gbps networks up to 55-meter segments; CAT6a:
+Supports 10Gbps networks at 100-meter segments*
+
+What two types of CAT cable are currently most commonly used? *CAT 5e and CAT
+5.*
+
+Describe STP cabling. *Shielded Twisted Pair: consists of twisted pairs of
+wires surrounded by shielding to protect them from EMI*
+
+Where is STP most likely to be required? *Locations with excessive electronic
+noise, such as a shop floor area.*
+
+Why do 10BaseT and 100BaseT standards require two pairs of wires? *One pair for
+sending and one pair for receiving.*
+
+100BaseT requires at least CAT *5* to run.
+
+What type of connector is used by Ethernet cables? *RJ-45*
+
+What CAT level must be considered besides the cable CAT? *Connectors also have
+CAT levels. Connectors and cables must match*
+
+What two types of RJ connectors are currently used for networking? *RJ-11 and
+RJ-45. 11 connects the telephone to the telephone jack in the wall, and is
+primarily used for telephone-based Internet connections. 45 is the standard for
+UTP connectors. It is visibly much wider than RJ-11.*
+
+How are UTP wires categorized? *Each wire has a number. The number is not
+printed on the wire, but every wire is a color corresponding to the wire
+number.*
+
+What is the 'plenum space'? *The plenum space is the space in the ceiling, in
+the floor, and in the walls, through which cable runs.*
+
+What is the primary safety problem affecting the plenum space? *The plastic
+material of common cable jackets is made of PVC (polyvinyl chloride), a non-fire-retardant plastic
+which can release noxious fumes if exposed to extreme heat.*
+
+How can the safety of the plenum space be addressed? *Special plenum-grade
+cabling, with a fire-retardant jacket, must be used in the plenum space. It
+costs about threee to five times more than PVC.*
+
+What is the purpose of network protocol software? *Takes the incoming data
+received by the network card, keeps it organized, sends it to the requesting
+application, and takes outgoing data from an application and hands it to
+the NIC to be sent out over the network.*
+
+What is NetBIOS/NetBEUI? *NetBEUI stands for NetBIOS Extended User Interface.
+this was IBM's network protocol dtack. NetBIOS handled naming conventions,
+while NetBEUI chopped up data for delivery via frames.*
+
+What is a node in networking? *A node is any device that has a network
+connection.*
+
+What is a LAN? *A Local Area Network is a group of computers located physically
+close to each other. It is almost always a 'broadcast domain'-- a group that are able to hear each
+other when one sends out a broadcast.*
+
+What is a broadcast domain? *A group of computers connected by one of more
+switches.*
+
+What is a WAN? *A Wide Area Network is a widespread group of computers
+connected using long-distance technologies. You connect a WAN using a router.
+The Internet is an example of a WAN.*
+
+What type of frames can never go through a router? *Broadcast frames.*
+
+What is the current standard networking protocol? *TCP/IP*
+
+What is the responsiblity of TCP? *TCP handles getting data between computers.*
+
+What is the responsibility of IP? *IP handles the addressing scheme of individual
+computers.*
+
+What type of notation is used in IPv4 addresses? *Dotted-decimal notation: four
+sets of eight binary numbers called octets, each separated by a period. The
+numbers range from 0 to 255.*
+
+What is a network ID? How do you identify it? * *A network ID identifies
+which parts of an IP address are common to all of the computers in the same
+broadcast domain. You identify it by checking the subnet mark-- which looks
+like an IP address with some octets set to 255 and some to 0. The octets set to
+255 denote the portions of the IP address which serve as the Network ID.*
+
+What is the network ID of a computer at 192.168.202.34 with a subnet mask of
+255.255.255.0? *The network ID would be 192.168.202*
+
+What are the functions of the two IP addresses given to a router? *One IP
+address connects to the 'next network', such as the ISP, and the other IP
+address connects to your LAN's switch. The second IP address is part of the
+network ID and is used to send data to anything outside of the network ID. This
+is called the 'default gateway'.*
+
+What corresponds IP addresses to host names? *DNS*
+
+What part of www.whitehouse.gov is the top-level domain? *.gov*
+
+What organization is primarily charge of overseeing domains? *ICANN - the
+Internet Corporation for Assigned Names and Numbers.*
+
+Define the following: IP address, subnet mask, default gateway, and DNS server.
+*A computer's unique address on its network; Identifier of the network ID; IP
+address on the LAN side of a router; server which keeps DNS records to match
+hostnames to IP addresses.*
+
+What is DHCP? What does it do? *Dynamic Host Configuration Protocol; Automates
+the process of giving IP addresses to computers via a DHCP server.*
+
+What are workgroups? *Workgroups are the most simplistic of the network
+categories supplied by Windows. They are the default for almost every fresh
+installation of Windows.*
+
+How is a workgroup controlled? *Workgroups lack centralized control-- all
+systems connected on the network are equals.*
+
+How can you share a folder in Windows 7? *Right-click on the folder and select
+'Share With' to get the File SHaring dialogue box.*
+
+What do file 'Owner' permissions allow in Windows? *They offer read/write
+permissions plus the ability to set permissions for other users on the object*
+
+What is the nomenclature in Windows to specify a particular user on a
+particular computer? *<Computer Name>/<User Name>*
+
+How is resource control performed in a Windows domain? *A central server
+running Windows Server controls access to the network's resources.*
+
+What is the domain controller? *This is the Windows Server system on which the
+given domain is created by an administrator.*
+
+What are domain accounts? *These are user accounts set up on a domain
+controller.*
+
+What is 'single sign-on'? *Because on a domain member computer you log directly
+onto the domain rather than onto the computer, you can log on to any computer
+on the domain using the same domain account.*
+
+What is a homegroup? *As a network type between the simplicity of workgroups
+and the complexity of domains, Microsoft introduced homegroups. A homegroup
+connects a group of computers using a common password.*
+
+How does the CompTIA exam name homegroups? *The format HomeGroup is used to
+address the technology, and homegroup is used to refer to the groups
+themselves.*
+
+Where do you initiate creation or joining of a homegroup? *Go to the HomeGroup Control
+Panel applet.*
+
+All homegroup data is *encrypted* between systems.
+
+By default, homegroups share what type of resource? *Libraries (not folders)*
+
+What kind of frame gets received by all NICs in a LAN? *Broadcast frames*

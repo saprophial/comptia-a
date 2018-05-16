@@ -1,0 +1,91 @@
+Which three Windows operating systems are relevant to the CompTIA exam? *Windows XP; Windows Vista; Windows 7*
+
+Name the Windows XP editions. *XP  Home; XP Professional; XP Media Center; XP 64-bit; XP Professional 64-bit*
+
+Name the windows Vista editions: *Vista Home Basic (32 and 64); Vista Home Premium (32 and 64); Vista Business (32 and 64); Vista Ultimate (32 and 64); Vista Enterprise (32 and 64)*
+
+Name the Windows 7 editions: *7 Starter (32 only); 7 Home Premium (32 and 64); 7 Professional (32 and 64); Ultimate (32 and 64); Enterprise (32 and 64)*
+
+When did Microsoft enter the operating system game? *In the early 1980s, with MS-DOS*
+
+How did Apple push Microsoft's progress? *Apple's OS already offered a GUI-based system. Microsoft had to follow suit.*
+
+What was the first GUI-like Windows? When was it released? *In 1985, Windows 1.0 was released. It was basically a graphical overlay of MS-DOS.*
+
+How did Windows 1.0 progress? *Several updates led to Windows 3.1, aka Windows for Workgroups. This was the first truly popular Windows distribution.*
+
+What does 3.x refer to? *3.x refers to the various editions of Windows 3.1 which were eventually released.*
+
+What was Microsoft's first truly graphical version of Windows? When was it released? *In 1989, Windows NT was released. It went through a number of editions, culminating in Windows NT 4.0 in 1996*
+
+What was the key feature of Windows NT? *NTFS, a new way of organizing hard drives and files, was unleashed with NT*
+
+What type of file system was in use prior to the NTFS? *Before NTFS, an ancient file system called FAT (file allocation table) was used. FAT had no file security by way of user accounts, file permissions, or passwords.*
+
+What Windows release followed NT? (Windows 95 was released offering many improvements over NT. It was the first WIndows for the standard user which was also a full-blown OS*
+
+What upgraded versions followed Windows 95? *Windows 98; Windows 98 SE (Second Edition); Windows ME (Millenium Edition). These are all referred to, collectively, as Windows 9x.*
+
+What were the strengths of Windows 2000? *Based on Windows NT with great interface, broad program support, and ease of use; Its stability and easiness drew many 9x users (casual/layman users), though it was aimed at the Windows NT (more corporate) audience* 
+
+Which version of Windows was the last to come in both server and professional editions? *Windows 2000*
+
+What is a domain in Windows? Which version of Windows was the first to offer domains? *XP Professional was first to offer domains; A domain is a group of networked PCs all under the control of a single PC running some edition of Windows server*
+
+How could users access a Windows XP domain? (Research more) *Users on a domain can use a single logon with their PC that defined their permissions for every other PC on the domain.*
+
+Have features does XP Home lack versus XP Professional Edition? *Access to Windows domains (some reduced conveniences); EFS; Support for more than one processor; Remote Desktop Support; Support for NTFS access control; Support for Group Policies*
+
+What does Windows XP Media Center have? Which other XP edition does it otherwise match? *XP has the Media Center program, which enables organization of media of all sorts, watching and recording TV, and is a PVR (personal video recorder) program.; Otherwise, XP Media Center is just like XP Home.*
+
+Windows Vista was released in *2007*.
+
+Describe the features of Windows Vista Home Basic compared with Windows XP. *Vista Home Basic is roughly equivalent to XP Home*
+
+What does Vista Home Premium over Vista Home Basic? *Premium is basically Basic plus an upgraded Windows Media Center application*
+
+How does Vista Business compare to XP Professional? *Vista Business, the most basic business edition of Vista, has all of the security, file-sharing, and access controls made available by XP Professional*
+
+How does Vista Ultimate compare to the lower editions of Vista? *Ultimate has all of the features of the other Vista editions plus some other features, such as a game performance tweaker and DVD-ripping capability*
+
+Describe the features of XP Enterprise: *Enterprise is an enhanced version of Vista Business, plus some extra features such as bitlocker drive encryption and support for two CPUs.*
+
+How can Vista Enterprise be purchased? *Directly through Microsoft*
+
+How can you determine your edition of Windows XP, Vista, or 7? *Right-Clicking '(My) Computer' and selecting 'Properties'.*
+
+How did Windows 7 come to be? *7 was the result of all of Microsoft's fixes to Windows Vista. Vista was already such a bad name that the new name of Windows 7 came into play*
+
+Describe Windows 7 Starter. *A stripped-down, x32-only version of the 7 OS, made for the emergence of netbooks. It is focused on easy internet access.*
+
+Describe Windows 7 Home Premium. *The most basic and widely-distributed edition of 7; roughly comparable to Vista Home Premium, with lots of media functionality and some advanced networking functions.*
+
+Describe Windows 7 Professional. *A step up from Home Premium, adds support for joining domains and powerful features like XP mode (which enables running XP programs within 7) and remote desktop connection.*
+
+Describe Windows 7 Ultimate. *Has everything the other versions of 7 can offer, blus advanced networking, backup utilities, and security tools.*
+
+Desribe Windows 7 Enterprise. *Similar to Vista, Enterprise, and acquired the same way. Based on 7 Professional including features for large businesses such as enhanced network searched, increased application security, and data protection using bitlocker.*
+
+In what year did 64-bit CPUs begin to emerge? *2001*
+
+What are 32-bit CPUs mainly used for now? *Netbooks and phones.*
+
+How many bytes of RAM does a 32-bit CPU use at maximum? *4GBs, or 2^(32) bytes*
+
+What was the first 64-bit CPU? *The Intel Itanium*
+
+How did Microsoft respond to the emergence of the 64-bit CPU? *Released special 64-bit versions of Windows 2000 and XP. These were rare and only workied with the Itanium.*
+
+In 2003, AMD shipped the *Athlon* 64-bit CPU, ehich could run in 32-bit or 64-bit mode.
+
+Intel followed AMD's Athlon CPU by releasing the *Pentium 4* CPU in 2004.
+
+Every installation DVD of Windows *7* comes with both 32- and 64-bit versions.
+
+Why have 32-bit technologies come to be referred to as x86? *Intel originally named their CPUs with numbers ending in 86, such as 8086, 80286, etc*
+
+
+
+
+
+

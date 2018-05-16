@@ -1,0 +1,28 @@
+What is DRAM? What feature gives it the D? *Dynamic Random Access Memory; DRAM's memory refresh function is what makes it ~dynamic~*
+
+In DRAM, a -- and a -- are paired to create a memory cell, which represents a single -- of data. *transistor, capacitor, bit*
+
+Describe a transistor's function in a memory cell. *The transistor acts as a switch that lets the control circuitry (MCC, or Memory Controller Chip) read the capacitor or change its state.*
+
+Describe a capacitor's function in a memory cell. *A capacitor is like a bucket which is either empty (0) or full (1) of electrons.*
+
+Why does DRAM need to dynamically refresh? *In reading the full charges in memory cells, a bit of charge is also drained away. So, RAM reads the postiive cell charges and then needs to replenish them in order to prevent the charge being lost and rendering the capacitor empty, or 0. This refresh operation occurs thousands of times per second*
+
+Memory cells are etched in an array of columns called --- and rows called ---. *Bitlines; Wordlines*
+
+Memory cells are organized into rows and columns inside of --- that can hold a certain number of bits. *Chips*
+
+Techs describe chips by *[bits]/bytes/semiconductors/clock speed*.
+
+An individual RAM chip that holds 1,048,576 rows and 8 columns would be called a ------ chip. *IMx8, with 'M' and shorthand for mega, as in megabytes.*
+
+How many bits are in a byte? *8*
+
+What are pins on a RAM stick (physicality, relevance)? *Pins are the gold contacts on the RAM module. These have nothing to do with the memory size of the RAM (the bytes), but they have to do with the compatibility of the stick of RAM to a motherboard.*
+
+What is a memory bank in RAM? *A memory nank is a logical unit of storage which is hardware-dependent. In a computer the memory bank may be determined by the memory access controller along with physical organization of hardware memory slots.*
+
+What is a memory module? *This is a broad term used to refer to a series of dynamic RAM integrated circuits modules mounted on a printed circuit board.*
+
+
+

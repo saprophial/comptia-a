@@ -1,0 +1,10 @@
+QUESTION FORMAT
+
+My favorite color is *green*.               ==> Single Answer
+;;;
+My cats are named *Buster;Moxie*.           ==> Multiple Answer
+;;;
+Select the one that's a letter: *a/2/45/9*  ==> Multiple Choice
+;;;
+
+

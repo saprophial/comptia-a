@@ -1,0 +1,41 @@
+ESD stands for *Electrostatic Discharge*.
+
+When does ESD occur? *ESD occurs when two objects at different electric potentials come into contact with each other, causing a rapid transfer of ekectrostatic charge between them.*
+
+How is ESD avoided? *ESD is avoided by grounding onesself to the PC (staying at the same potential)*
+
+Name three tools which help control ESD. Know how they are used. *Anti-static wrist strap; Anti-static mat; Anti-static bag*
+
+How do anti-static devices work? *Anti-static devices contain tiny devices called resistors, which resist the flow of electricity. These can degrade over time, so always consult a device's user manual for how to test their effectiveness.*
+
+How can one become grounded to a PC without anti-static devices? *Occasionally touching the power supply of the PC will keep onesself at the same potential as the PC*
+
+What type of climate increases the risk of ESD? *Cool, dry environments encourage static elecctricity and thus increase the risk of ESD*
+
+Should the PC be plugged in while working? *The PC should always be unplugged while being worked on*
+
+What does EMI stand for? *Electromagnetic Interference*
+
+Which PC components are most at risk of EMI? *Floppy disks; Hard drives; Flash drives; CRT monitors*
+
+What common appliances have magnets? *Many phones; Laptop power bricks; any device with an electric motor*
+
+RFI stands for *Radio Frequency Interference*
+
+How does RFI manifest? *RFI causes strange noises on speakers even when they aren't playing any (intended) sound; In severe cases, RFI can cause poor signals and even signal blockage*
+
+What common devices emit radio waves? *Cell phones; Cordless phones; Wireless Network cards; Baby monitors; Microwave ovens*
+
+Describe three types of protective gear bags. *i. Pink, translucent bags designed to shed static electricity; ii. Metallic bags which shield against ESD, EMI, and RFI; iii. Woven bags which shield against ESD, EMI, and RFI. Bags should be taped shut to offer full protection.*
+
+When can RFI become a big problem? *When two or more radio-wave-emitting devices are on the same frequency they can interfere with each other. These usually need to be re-tuned*
+
+Who should be contacted if you run into a hazard, such as a cable presenting a tripping hazard, in a business environment? *Contact 'Building services' (person in charge of the building) about such hazards.*
+
+Why should one weigh mounted PC components? *PC components should be weighed to ensure that they won't exceed the weight limit of the mounting hardware in order to avoid collapse.*
+
+How can one check safely for hot components? *i. Check for evidence of a cooling fin; ii. Check for labels or stickers warning of hot components; iii. Wave a hand over the PC components as if checking a hot stovetop*
+
+What tools do techs often carry? *A phillips-head screwdriver at minimum; Various philips- and flat-head screwdrivers; A hemostat; A star-headed torx wrench; A nut driver; Plastic tweezers; A parts retriever; An IC extractor; An extension magnet; A flashlight and magnifying glass*
+
+

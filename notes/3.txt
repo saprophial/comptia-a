@@ -1,0 +1,198 @@
+What are the four stages of PC function? *Input;Processing;Output;Storage*
+
+The *system unit* is the box which all other parts of the pc connect to or are contained by.
+
+What are the six major connection types? *USB;DIN;Firewire;DB;RJ;Audio*
+
+A *plug* is a part with some type of projection that goes into a port.
+
+A *port* is some type of hole or slot which accepts a plug.
+
+The term *jack* is an alternative to 'port'. You may put a plug into this connector as well.
+
+The term *connector* applies to ports, jacks, and plugs.
+
+What does DIN stand for? *Deutsche Industrie Norm*
+
+You'll usually only see this type of DIN connector. *mini-DIN*
+
+Older-style *keyboards and mice* plugged into DIN ports.
+
+Describe the mini-DIN connector named by IBM. *mini-Din may also be called a PS-2 connector, as IBM named the mini-DIN connector for the Personal System 2 computer in 1987. This an old term, which has kind of stuck.*
+
+The standard mini-DIN has *six* pins.
+
+How is a mini-DIN sometimes used in audio? *Many speakers use a mini-DIN to connect satellites to a subwoofer or control box.*
+
+What is third name for a mini-DIN? When is it used? (Not the IBM name.) *A mini-DIN is also called a DIN-6 in uses OTHER THAN keyboard and mouse.*
+
+USB stands for *Universal Serial Bus*.
+
+What are the three standard and the three less common USB sizes? *A;B;Mini-B;Mini-A;Micro-A;Micro-B*
+
+You'll never see a USB size *B* on a computer-- those connectors always connect to the device at the other end.
+
+What are two features of USB connections?: *Hot-swappable;Give devices electrical power through the USB connection*
+
+What is FireWire also known as? *IEEE 1394* 
+
+What does IEEE stand for? *Institute of Electrical and Electronics Engineers* 
+
+What is the major advantage of FireWire connectors? *They move data at extremely high speeds*
+
+To what context is FireWire suited? *Highly specialized applications such as streaming video data onto a hard drive" 
+
+Describe the connector commonly types seen in FireWire: *Standard 6-wire;9-wire for more speed and power;Smaller 4-pin version usually seen on peripherals*
+
+Like USB, FireWire devices are *hot-swappable*.
+
+DB connectors have been used for almost any type of peripheral with the exception of *keyboards*.
+
+What are three alternate names for DB connectors? Which is perferred by CompTIA? *D-subminiature;D-sub;D-shell (per CompTIA)*
+
+What are the normal density names and associated pin numbers in D-shell connectors? *DA-15: 15 pins; DB-25: 25 pins; DC-37: 37 pins; DD-50: 50 pins; DE-9: 9 pins*
+
+What range of DB connector pin counts exists in the PC world? *9 to 37 pins, although more than 25 is rare.*
+
+A typical modern system has *one or two* DB connectors.
+
+RJ stands for *Registered Jack*.
+
+RJ-11 and RJ-45 stand for *Registered Jack Function 11 and Rejustered Jack Function 45*.
+
+A RJ-11 connector is used for connecting *modems to phone jacks*.
+
+You always use the term *jack* for connectors to RJ plugs.
+
+A RJ-45 connector is used for *ethernet/network connections*.
+
+Describe the physical properties of RJ-11 and -45. *RJ connectors are clear plastic. The -45 is wider than the -11.*
+
+The group of audio jacks on a typical system unit is called a *bank*.
+
+The most common type of sound connector is the *1/8-inch connector, aka a mini-audio connector*.  
+
+Most PCs have --- inside the system unit that enable you to add devices on ---. *Expansion slots; Expansion cards*
+
+When handling expansion cards, touch *the metal plate with the 90-degree bend* and try to avoid touching any of the electronics.
+
+Which two types of video connectors will you commonly see? *The 15-pin DB Video Graphics Array (blue); The Digital Visual Interface connector (white)*
+
+What does VGA stand for? *Video Graphics Array*
+
+What does DVI stand for? *Digital Visual Interface*
+
+What three types does the DVI connector come in? *DVD-A: Analog only; DVD-D: Digital only; DVI-I: Digital and analog*
+
+What does HDMI stand for? *High-Definition Multimedia Interface*
+
+What are the two smaller versions of HDMI? Where are they used? *Mini-HDMI; Micro-HDMI; These are primarily on high-end cell phones*
+
+What two functions does the sound device on a PC perform? *Playing sound output; Recording sound input*
+
+The most important audio connector color to know is ---, which is used for ---. *Green; Standard speakers*
+
+An older sound card may have what type of connector? What is it used for? *Female 15-pin D-shell port; Connects with MIDI and joystick devices*
+
+MIDI stands for *Musical Instrument Digital Interface*.
+
+What is the newer consolidated sound connector? *The Sony/Phillips Digital Interface Format (S/PDIF) serves the functions of all of the connectors on a typical mini-audio bank.*
+
+What formats do S/PDIF connectors come in? *Optical; Coaxial*
+
+What connector does a modern PC use to connect to a network? *RJ-45*
+
+What is the standard color of network connectors? *There isn't a standard color for RJ-45 network connectors.*
+
+What does NIC stand for? *Network Interface Card-- NIC is still a common term even with today's built-in network connections*
+
+For many years, how did PCs connect to a network? *They connected with the NIC expansion card*
+
+What are the two types of mouse connectors? *USB (modern); A dedicated light green mini-DIN (dated)*
+
+What is the function of a modem? *Enables connection of a PC to a network via a standard telephone line*
+
+What are the jacks in a modem for? *The first jack in a modem is connected to a standard phone jack on the wall; If a second phone jack is on the modem, it can be used for a second phone line for when the modem is not in use.*
+
+What old port was once used to connect to external modems? *A port called the 'serial port', a male 9-pin or 25-pin D-shell on the system unit, was used for modems.*
+
+For many years, what type of port was used for printers? *A 'parallel port', which consisted of a 25-pin female DB usually colored fuschia, was used*
+
+What connections does a modern printer usually offer? *USB;Ethernet;Wifi 802.11 b/g/n*
+
+What was IBM's expectation for the joystick? *That it would be a hard-working input device as the mouse now is.*
+
+What type of connection was the joystick given? What color was it? What connector is now used? *Joysticks traditionally used a female 15-pin DB port. It was generally orange. Joysticks now use a USB connector.*
+
+What is the system unit's case? What is an alternate name for it? *The system unit's case is what holds and protects all internal components of the PC; It also called the enclosure.*
+
+Describe key areas of the case. *The back of the case holds the input/output (I/O) area with most of the onboard connections; The back of the case also holds the expansion slots; The power supply is almost always at the top of the case, with cooling fan and power plug.*
+
+CPU stands for *Central Processing Unit*.
+
+What does the CPU do? *The CPU performs all of the calculations that take place inside a PC.*
+
+A CPU may also be referred to as the *microprocessor*.
+
+Most CPUs needs these additional devices nearby and why? *CPUs generate a lot of heat and so they need: ;A heat sink (a slab of copper or aluminum that draws heat away from the processor);The cooling fan (which blows drawn excess heat out into the case)*
+
+The most common makes of CPU are: *AMD; Intel*
+
+What is the significance of a CPU's package? *A package defines how the CPU physically looks and how it connects to the computer*
+
+Intel CPUs typically use what type of package? *Land Grid Array (LGA)*
+
+AMD CPUs typically use what type of package? *Pin Grid Array (PGA)*
+
+Each CPU package type is designed to fit into a particular connection called a *socket*.
+
+Every CPU has these three attributes: *Make; Model; Package Type*
+
+Your CPU and RAM are very sensitive to *ESD*.
+
+RAM stands for *Random Access Memory*.
+
+RAM's function is *storing programs and data currently being used by the CPU*.
+
+RAM is measured in *Megabytes or Gigabytes*.
+
+Each piece of RAM is called a *stick*.
+
+What is a common type of stick seen in modern PCs? *DIMM - Dual Inline Memory Module*
+
+What is a constraint of each individual PC when choosing to add or replace RAM? *Each PC takes one type of DIMM*
+
+In a PC, everything connects to the *motherboard*.
+
+Describe the appearance of a motherboard. *A thin, flat piece of circuit board, usually green or gold.*
+
+What is the function of the power supply? *The power supply provides the necesary electrical power to make the PC operate. Takes standard electrical power and converts it into power usable by the PC.*
+
+Describe the appearance of the power supply: *The power supply is usually about the size of half of a shoebox and in a grey or metallic color.
+
+The *floppy drive* enables you to access removable floppy disks. 
+
+The size of floppy drive used in today's PC are *3.5-inch* floppy drives.
+
+Floppy drives connect to the computer via a --- which in turn connects to the ----. This connection is known as the ---. *Ribbon cable; Motherboard; Floppy drive controller*. 
+
+A *hard drive* stores programs and data that are not currently being used by the CPU.
+
+A terrabyte is how many gigabytes? *1000*
+
+Name the two most common types of hard drives in today's PC. *Serial Advanced Technology Attachment (SATA) (more modern); Parallel Advanced Technology Attachment (PATA) (older)*
+
+What type of of cable do the two common types of hard drive use? *PATA drives use a ribbon cable like the one used by floppy drives; SATA drives use a narrow cable*
+
+Most motherboards come with connections to *SATA* hard drives.
+
+What is a more rare and expensive type of hard drive? *SCSI (Small Computer System Interface)*
+
+What type of drive enables a computer to read optical discs? *Optical drive*
+
+Name the three varieties of CD: *CD-ROM: Read-only memory; CD-R: Recordable: CD-RW: Rewritable*
+
+What do you call the commands that tell the computer what to do? *Programming*
+
+
+
