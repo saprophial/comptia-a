@@ -1,0 +1,57 @@
+Format for CompTIA study notes:
+
+'*___*'     --> fill in the blank/straight answer
+'*a;b*'     --> multiple answers
+'a/b/c/d'   --> multiple choice
+';;;'       --> separates questions
+
+Example:
+
+My favorite color is *green*.
+;;;
+My cats are named *Buster;Moxie*.
+;;;
+Select the one that's a letter: *a/2/45/9*
+;;;
+
+PYTHON IMPLEMENTATION
+""" Split up all questions """
+all_questions = text_file.split(';;;')
+
+""" Make a random list of indices to randomize the questions """
+from random import shuffle
+num_questions = len(all_questions)
+all_indices = [i for i in range(num_questions)]
+random_indices = shuffle(all_indices)
+print random_indices
+
+""" Start going through all questions """
+for i in random_indices:
+    question = all_questions[i]
+    # Single and multiple-choice answers should always have the answer ar index 1
+    q_split = question.split('*')
+    answer = q_split[1]
+    q_split.pop(1)
+    question = ' ____ '.join(q_split)
+    split_answer = answer.split(';')
+    multi_choice = answer.split('/')
+
+    """ Is it a multiple-answer question? """
+    if len(split_answer) > 1:
+        num_answers = len(split_answer)
+        question = "%s (%s answers) " % (question, num_answers)
+        answer = ", ".join(split_answer)
+        echo question
+        echo answer     # Hide somehow
+
+    """ Is it multiple-choice? """
+    elif len(multi_choice) > 1:
+        echo question
+        for i in range(0, len(multi-choice):
+            print "%s. %s" % (i, multi_choice[i])
+
+
+Maybe make a tKinter window class that has a "Show Answer" button which triggers a .config() action to show more text/label objects
+Maybe add a checkbox to count correct/incorrect answers (Was my response correct? [] Yes [] No => score {Correct : x++, Incorrect : x++ }
+    
+
