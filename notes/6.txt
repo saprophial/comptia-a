@@ -1,0 +1,263 @@
+All of the machine language commands that the CPU understands makew up the
+CPU's *instruction set*.
+
+What is the function of the clock wire? *It tells the CPU, via a charge, that
+another piece of information is waiting to be processed.*
+
+A single charge to the CLK wire is called a *clock cycle*
+
+The maximum number of clock cycles that a CPU can handle in a given period of
+time is referred to as its *clock speed*.
+
+Clock speed is measured in *hertz*.
+
+How many clock cycles do each of the following units denote? 1 Hz, 1 MHz, 1GHz: *1
+cycle per second; 1 million cycles per second; 1 billion cycles per second*
+
+Must a CPU run at its clock speed? *No-- it can safely run at any speed that
+does not exceed its clock speed*
+
+The *system crystal* is the quartz oscillator on the motherboard determines the
+speed at which a CPU and the rest of the PC operate.
+
+What causes one CPU to run faster than another? *Subtle differences/flaws in
+the silicone make the difference.*
+
+How does the system crystal set CPU speed? Describe its process. *The crystal
+sends out an electric pulse as a signal which goes to a clock chip. The clock
+chip adjusts the pulse, usually increasing it. The clock chip then fires the
+charge on the CLK wire.*
+
+Before installing a CPU on a system, you must verify that the crystal and clock
+chip *send the correct clock pulse for that CPU*
+
+The CPU *registers* are tiny storage areas on the CPU made of microscopic
+semiconductor circuits that hold charges.
+
+Devices that in any way hold ones and zeros that the CPU accesses are known
+generically as *memory*.
+
+An IF statement in a CPU program is also called a *branch* by CPU makers.
+
+Memory must not only store programs but also *the result of the programs*
+
+An individual 1 or 0 is called *a bit*.
+
+Four bits = *a nibble*.
+
+Eight bits = *a byte*.
+
+16 bits = *a word*.
+
+32 bits = *a double word*.
+
+64 bits = *a paragraph or quad word*.
+
+Computers use what type of memory for the main system memory? *DRAM (Dynamic
+RAM)*
+
+What makes DRAM dynamic? *DRAM needs a constant charge along with a periodic
+refresh of the circuits to make up for for loss of electrons*
+
+What is the chip responsible for the mechanics of retrieving the specific row
+of data from RAM that the CPU needs and putting it on the EDB? *The memory
+controller chip (MCC)*
+
+iHow does the CPU tell the MCC which line of code it needs? *Via a second set
+of wires between the CPU and MCC called the address bus*
+
+How is addressing handled on the address bus wires? *Wires are turned on and
+off in different patterns, and each pattern points to one byte of RAM.*
+
+What equation yields the maximum RAM that a CPU can handle? What is another
+name for this number? *Given the number of address bus wires as x, 2^(x)
+results in the maximum RAM the CPU canhandle. This number is called the address
+space.*
+
+What are the major units based on these powers of 2: 10, 20, 30, 40.
+*2^10 = 1 kilo; 2^20 = 1 mega; 2^30 = giga; 2^40 = 1 tera*
+
+Is zero-padding numbers in binary permitted? *Yes*
+
+Can you mix Intel and AMD CPUs and motherboards? *no*
+
+AMD and Intel use ___ to keep track of different variations within ___. You
+need to know both to make a proper CPU recommendation. *Code names; models*
+
+What are important features of CPUs for mobile devices? *Consime as little
+electricity as possible to extend battery and create less heat*
+
+Saving energy by making the CPU run more slowly is generically called
+*throttling*.
+
+All modern CPUs run at some multiple of the *system clock speed*.
+
+Modern CPUs report to the motherboard through a function called *CPUID (CPU
+identifier)* and the speed and multiplier are set automatically.
+
+Support for running more than one OS at a time is called *virtualization*.
+
+Modern CPUs can process multiple commands and parts of commands in parallel,
+known as *parallel execution*.
+
+To get a command from the data bus, do calculation, and get the answer back
+out onto the data bus, what four main steps, or stages, does the CPU perform?
+*1. Fetch - get the data from the EDB; 2. Decode - figure out type of command
+to be executed; 3. Execure - perform calculation; 4. Write - Send data back
+onto the EDB*
+
+Circuits are organized in a conveyer-belt fashion called a *pipeline*. 
+
+How does pipelining work? *Each stage does its job with each clock cycle so
+none sit idle*
+
+What is a pipeline stall? *a pipeline stall is when one of the stages hits a
+complex comand requiring more than one clock cycle, forxing the pipeline to
+stop*
+
+What is the CPU's ALU? *The arithmetic logic unit: handles integer math*
+
+What is the CPU's FPU? *Floating point unit: handles complex numbers*
+
+Because the CPU runs faster than the RAM can supply it with code, you'll always
+get pipeline stalls called *wait states*.
+
+To reduce wait states, CPUs come with built-in, high-speed RAM called *static
+RAM (SRAM)*.
+
+SRAM used to preload as many instructions as possible and keep copies of
+already-run data is called a *cache*.
+
+With the advance of CPU caching, the address bus and EDB were lumped into a
+single term called the ___ and the connection between the CPU and
+the L2 cache became known as the ___. *frontside bus; backside bus*
+
+To keep up with faster processors, motherboards manufacturers bagen to double
+and even quadruple the size of the frontside bus. These are sometimes referred
+to as ___ and ___ frontside buses. *double-pumped; quad-pumped*
+
+Describe the relative size and speed of the L1, L2, and L3 caches. *L1 is the
+smallest and fastest cache; L2 is bigger and slower than the L1 cache; L3 is
+the biggest and slowest cache.*
+
+What is referred to by the L1, L2, and so on caches? *These are the built-in
+caches of memory on the CPU. the numbers go in order of which cache the CPU
+checks (e.g. L1 is checked first)*
+
+What is hyper-threading? *A feature of the Intel Pentium 4, hyper-threading
+enabled the processor to run multiple threads at the same time, generically
+called simultaneous multithreading.*
+
+What are the limitations of multithreading? *The OS and application have to be
+designed to take advantage of the feature; although the CPU simulates the
+actions of a second processor, it doesn't double the processing power*
+
+What creates a dual-core architecture? *Combining two CPUs (or cores) into a
+single chip, creating two execution units, or two pipelines, but the two share
+caches and RAM*
+
+Are the multicore CPUs beyond dual-core? *Yes-- multicore CPUs can have 4, 6,
+or 8 cores*
+
+Almost all current miltuprocessors have a(n) *integrated memory controller
+(IMC)* in the CPU to optimize the flow of information into and out from it.
+
+Different CPUs handle different types and capacities of *RAM*.
+
+The generic term for the video processor is a *graphics processing unit (GPU)*
+
+With the AMD *accelerated processing unit (APU)*, the GPU has access to all
+levels of cache on the CPU.
+
+Motherboards are manufactures with various different types of *sockets*, which
+acomodate different families of CPU.
+
+Make note! Need to study the AMD and Intel CPU families and their socket names.
+*Okay*.
+
+Intel CPUs use a ____ package, whereas AMD CPUs use a ___ package. *Land Grid
+Array (LGA); Pin Grid Array (PGA)*
+
+Describe the physical attributes of the LGA package. *The LGA package features
+hundreds of contact points on the underside of the CPU which line up with pins
+in the socket.*
+
+Describe the physical attributes of the PGA package. *The PGA package features
+hundreds of tiny pins on the underside of the CPU which line up with holes in
+the socket*
+
+In either socket style, how do you get access to use the CPU socket? *You
+release the retaining mechanism by pyushing the level down slightly and then
+away from the socket, then raise the arm fully and move the retaining bracket.*
+
+What are ZIF sockets? *Zero insertion force: you gently drop the socket into
+place once it's aligned, never exerting force to insert pins into holes.*
+
+In electrical terms, CPUs consume *wattage, or watts* of electrical power.
+
+The more *transistors* the CPU has, the more power they need and the hotter the
+yget.
+
+Almost every CPU uses a combination of a ____ and a ___ to wick heat away from
+the CPU. *Heat sink; fan assembly*
+
+How does liquid cooling work? *A liquid, usually water, is run through a metal
+block sitting on top of the CPU and absorbing heat. The liquid is then run via
+tubes out of the block and into soemthing that cools the liquid, then it runs
+through the block again.*
+
+Any liquid cooling system consists of three main parts: *A hollow metal block
+on the CPU; A pump to move the liquid; A device to cool the liquid*
+
+What is a key reference point for determining the orientation of a heat sink
+and fan assembly? *The ability of the fan's power cable to reach the standout
+on the motherboard*
+
+Before inserting the heat sink, what step should be taken? *Apply a small
+amount of thermal compound, or 'heat dope', to the heat sink if it isn't
+pre-doped. If it is, just remove the small tape covering the dope.*
+
+What is overclocking? *Deliberately running systems at a higher clock speed
+than that for which the CPU is rated.*
+
+What are the risks of overclocking a CPU? *It immediately voids most
+warranties; has been known to destroy CPUs; might make the system unstable and
+prone to lockups and reboots.*
+
+Most motherboards have a jumper setting called *CMOS clear* that makes the CMOs
+go back to default settings.
+
+How can you clear CMOS? *Turn off the PC; Locate a shunt (tiny plastic piece)
+and place it over the two jumper wires for a moment; Restart the PC and
+immediately go into CMOS and restore settings needed*
+
+CPU issues generally fall into two categories: *Overheating; Catastrophic
+failures*
+
+The vast majority of problems with CPUs come from *faulty installaation;
+Environmental issues that cause overheating*
+
+Failure to install a CPU properly results in either ___ or ___. *Nothing-- you
+push the power button an nothing happens; A system lock-up in a short period of
+time.*
+
+Due to the nature of ZIF sockets, an installation issue is almost certainly not
+due to the CPU itself, but rather *the installation of the heat-sink and fan
+assembly*.
+
+What are the primary possible causes to investigate in regards to a CPU
+installation problem? *1. Too much thermal paste impeding the flow of heat from
+the CPU to the heat sink; 2. Not enough thermal paste or thermal paste unevenly
+spread; 3. Failure to connect the fan power to the motherboard.*
+
+How can environmental factors cause a CPU failure? *The CPU needs adequate
+ventilation. The inside of the case needs to get hot air out through one or
+more exhause fans and cool air back in the front vent. If vents are clogged or
+fans are broken or blocked, the trapped hot air can overwhelm the cooling
+devices.*
+
+What is a Windows stop error? *BSOD*
+
+What events tend to accompany a catastrophic failure? *BSOD or PC going black;
+The PC may emit a pop; There may be a smell of burnt electronics, in which
+case, it is prudent to seek the strongest source of the smell in the case*
