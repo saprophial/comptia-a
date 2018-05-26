@@ -1,0 +1,229 @@
+What is the north bridge? What is another name for it and what are its
+functions? *The north bridge is a member of the motherboard's chip set. It is
+also called the MCH (Memory Controller Hub). Its basic functions are: to act as
+the memory controller, the PCI Express controller, the AGP bus controller, and
+to interface with the south bridge chip.*
+
+What is the south bridge? What is another name for it and what are its
+functions? *The south bridge is a member of the chip set. It is also called to
+ICH (I/O Controller Hub). It is connected to the north bridge (or the CPU if it
+integrates the north bridge) via a bus and is incharge of controlling I/O
+devices and on-board devices, such as ports, the PCI bus, the RTC, and CMOS
+memory*
+
+What is the pairing of the Northbridge and the Southbridge called? *The
+chipset*
+
+What, collectively, does the chipset accomplish? *The chipset extends the data
+bus to every device on the PC. The CPU uses the data bus to move data to and
+from all of the devices of the PC*
+
+Just as with the external data bus, the chipset extends the *address bus* to
+all of the devices. 
+
+What devices in the computer connect to the address bus? *All of them!*
+
+While various functions of the chipset are often talked about as though they
+were still handled by discrete ships, functions like memory controllers,
+keyboard controllers, and USB controllers are all just *circuits* on the
+Northbridge or Southbridge.
+
+Every time you press a key on the keyboard, a ___ in the keyboard
+notices which key you pressed and sends a coded pattern of ones and zeroes
+called the ___ to the keyboard controller. *Scanning chip; scan code*
+
+Define BIOS. *BIOS, or Basic Input/Output Services, is the set of routines
+stored in read-only memory (ROM) that enable a computer to start the operating system
+and to communicate with the various devices in the system.*
+
+The programs dedicated to enabling the CPU to communicate with devices are
+called *services*.
+
+Every device on the computer needs *BIOS*.
+
+Motherboards store device controlelr and other support programs which are used
+in BIOS pn a special chip called ROM (read-only memory).*
+
+A ROM chip stores programs, called *services*.
+
+ROM chips are *nonvolatile*, meaning that the information stored on ROM isn't
+erased when the computer is turned off.
+
+Traditional ROM chips are *read-only*, meaning that once you store a program on
+one, you can't change it.
+
+What are the important differences between ROM and RAM? *ROM is 1. Nonvolatile,
+and 2. read-only*
+
+Modern motherboards use a type of ROM called ___ ROM that differs from
+traditional ROM in that you can update and change the contents through a very
+specific process called "___". *Flash ROM; Flashing the ROM*
+
+Every motherboard has a flash ROM chip called the *system ROM chip* because it
+contains code that enables your CPU to talk to the basic hardware of your PC.
+
+The system ROM holds hundreds of programs for talking to various hardware which
+are collectively called the *system BIOS*.
+
+Techs call programs stored on ROM chips of any sort *firmware*.
+
+Programs stored on erasable media are collectively called *software*.
+
+What two types of hardware does every system BIOS have to support? *1. All of
+the hardware that never changes.*; 2. All of the hardware
+that might change from time to time, such as RAM, hard drives, and floppy
+drives.*
+
+Where does the system store the details of interchangeable pieces of hardware?
+*CMOS*
+
+What is the CMOS? *The complementary metal-oxide semiconductor chip stores the
+information that describes specific device parameters. It also acts as the RTC
+(real-time clock)*
+
+CMOS does not store programs, it only stores *data that is read by BIOS to
+complete the programs needed to talk to changeable hardware*.
+
+Today, the CMOS is almost always built into the *Southbridge*.
+
+Most CMOS chips store around *64 KB* of data.
+
+What results if the data stored on CMOS about a particular piece of hardware,
+or some of its features, is different from the specs of the actual hardware?
+*The computer cannot access that piece of hardware, or said features.*
+
+Every PC ships with a program built into the system ROM called the *CMOS setup
+program, or the system setup utility* that enables you to access and modify
+CMOS data.
+
+What are the two big BIOS companies? *American Megatrends (AMI) and Phoenix
+Technologies*
+
+The *system ROM chip* stores the system BIOS, programs needed by the CPU to
+communicate with devices.
+
+The system ROM chip also holds the program that accesses the information stored
+on the CMOS chip to support changeable pieces of hardware. This program is
+called the ____, or the ___. *CMOS setup program; system setup utility*
+
+The CMOS holds a small amount of data that describes *the changeable pieces of
+hardware supported by the system BIOS*.
+
+The setup program itself is stored on the ___ chip, but it edits only the data
+on the ___ chip. *ROM; CMOS*
+
+With the Phoenix Award Modular BIOS, motherboard makers buy a boilerplate BIOS
+designed for a particular chipset and add or remove options called *modules*
+based on the needs of each motherboard.
+
+What does the MB Intelligent Tweaker do? *The M.I.T. is used to change the
+voltage and multiplier settings on the motherboard for the CPU from the
+defaults. This caters to overclockers and is usually set to Auto or Default*
+
+What is the Advanced Bios Features screen for? *It's basically got a dump of
+features not covered in the standard menu and is most often used to select the
+boot options*
+
+What is a virtual machine? *A VM is a powerful program that enables you to run
+a second or more software-based machine inside of the physical PC*
+
+To support virtualization, CPU manufacturers have added *hardware-based
+virtualization*.
+
+Virtualization support is turned *off* by default in BIOS.
+
+Many motherboards support a fetaure called *chassis support intrusion* which
+logs whether the case has been opened, based on the tripping of a switch in the
+case.
+
+What is the Advanced Chipset Features screen for? *This screen deals with
+extremely low-level chipset functions. It should be avoided unless a high-level
+tech explicitly instructs it.*
+
+What is the Integrated Peripherals screen used for? *This screen is where you
+can enable, disable, and configure the onboard devices.*
+
+What is the Power Management Setup screen for? *This screen is used to set up
+power management settings for the system. These setting work in concert, and
+sometimes in conflict, with Windows' power settings.*
+
+When overclocking the PC, look for settings that adjust *the CPU's clock and
+bus speeds*.
+
+In overclocking, the higher you push clock and bus speeds, the *faster* the PC
+will go.
+
+What is PnP? *Plug and Play is how devices automatically work when you snap
+them into the PC*
+
+What is PCI? *PCI is a type of slot used for cards*
+
+What does the 'Load Fail-Safe Options' option do? *This option sets everything
+for very simple settings, and it may be used when very low-level problems such
+as freeze-ups occur.*
+
+What does the 'Load Optimized Defaults' option do? *This option sets the CMOS
+to the best possible speed/stability for the system.*
+
+In what two contexts can CMOS setup utilities enable enforcement of passwords?
+*1. One for boot; 2. One for accessing the CMOS setup program*
+
+Many CMOS utilities enable monitoring of CPU temperature, system temperature,
+and CPU and RAM voltages in the *PC Health Status* menu.
+
+On some motherboards, the CMOS setup program enables you to control the ATA
+Security Mode Feature Set, also commonly referred to as *drive lock, or
+DriveLock*
+
+What is ATA Security Mode used for? *It is the first line of defensefor
+protecting hard disks from unwanted access when a system is lost or stolen*
+
+Some PC manufacturers also include LoJack security features in their BIOS--
+what does this add? *With LoJack features, if a PC is stolen you can track its
+location, install a key logger, or even remotely shut down your computer*
+
+What does the Trusted Platform Module do? *The TPM acts as a secure
+cryptoprocessor. It is a hardware platform for the acceleration of
+cryptographic functions and secure storage of associated information*
+
+What is one of the most common uses of TPMs? *Hard disk encryption*
+
+What are the two ways of adding new BIOS programming to a system? *Option ROM;
+Device drivers*
+
+How does option ROM work? *Option ROM consists of firmware that etends the
+system BIOS and is called by the BIOS. This information is typically stored on
+an option ROM chip located on the hardware device.*
+
+How do most BIOS that come on option ROMs tell you that they exist? *They
+display information when you boot the system*
+
+What type of device currently always contains its own BIOS via option ROM?
+*Video cards*
+
+What is the major shortcoming of option ROM? *it's hard to upgrade*
+
+A *device driver* is a file stored on the PC's hard drive that contains all of
+the commands necessary to talk to whatever device it was written to support.
+
+ll operating systems employ a method of loading device drivers into ___ every
+time ___. *RAM; the system boots*
+
+How do operating systems know which device drivers to install? *By reading a
+file (or files) that lists which device drivers the system needs to load at
+boot time. The listed files are copied into RAM, allowing the CPU to
+communicate with those devices.*
+
+The generic name for a CD-ROM holding device drivers is *installation disc*.
+
+Windows stores device drivers in *the Registry*.
+
+If you want to access device drivers, do so via *the Device Manager utility*.
+
+In what places may the programming that enables the CPU to communicate with a
+device be held? *System ROM on the motherboard; option ROPM on a card/chip; in
+a device driver file on the hard drive loaded into RAM at boot*
+
+
+
+
