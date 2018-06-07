@@ -1,0 +1,325 @@
+What is DRAM? *Dynamic Random Access Memory*
+
+Describe what the terms stick, memory module, and Dimm refer to. *These all
+mean the same thing-- they refer to the RAM installed in a motherboard's RAM
+slots.*
+
+What is SRAM? *Static Random-Access Memory*
+
+Describe how the CPU interacts from memory. *The CPU interacts with memory via
+the memory controller chip (MCC). When the CPU wants an item in memory, the MCC
+grabs it from memory via the address bus then passes it to the CPU.*
+
+What components of the system are connected by the address bus? *The address
+bus connects the MCC to RAM.*
+
+Where can the MCC be found? *The MCC ay be integrated with the CPU (on-die)
+or it may be part of the Northbridge (on older systems with a separate
+northbridge from the CPU)*
+
+What does it mean for memory to be volatile? *Volatile memory loses any stored
+contents when it stops receiving power*
+
+Today's RAM is a set of *integrated circuits* (ICs) that works at high speed.
+
+What is memory refreshing and why is it needed? *Memory refreshing is the act
+of reading information from a specific area of memory and immediately rewriting
+that information vack to the same area waithout modifying it. Refreshing is
+needed because, as DRAM is contained as electrons within capacitors,
+capacitors lose their charge over time, causing the data to fade.*
+
+What type of RAM needs to be refreshed? What type of RAM does not? *DRAM
+(Dynamic RAM) needs to be refreshed. SRAM (Static RAM) does not.*
+
+Where can you normally find SRAM? *SRAM is often used as cache memory for CPUs;
+As buffers on the motherboard or within hard drives; as temporary storage for
+LCD screens.*
+
+Which is faster: SRAM or DRAM? *SRAM is faster than DRAM, and usually found in
+smaller quantities.*
+
+Is SRAM volatile? Is DRAM? *Both types of RAM are volatile-- they lose their
+data when they lose power*
+
+What type of memory is nonvolatile? *Read-Only Memory (ROM) is nonvolatile*
+
+What is SDRAM? Describe its functionality. *SDRAM is Synchronous DRAM. It is
+DRAM that is synchronized to the base clock (or 'bus speed') of the motherboard*
+
+What is DDR? *DDR is Double Data Rate, the most commonly used type of RAM. It
+is also called DDR SDRAM, as DDR RAM is synchronized to the bus speed just like
+SDRAM.*
+
+How does DDR work? *DDR tranfers twice the data at the same clock speed. It
+does this by transferring data on the rising AND falling edges of each clock
+signal.*
+
+DDR has a ___-bit wide bus, allowing for ___ bytes of data (x2) per cycle. *64;
+8*
+
+What is the equation (without megatransfers) for DDR data transfer rate(bandwidth)? *Clock speed x bytes x 2 =
+Data Transfer Rate*
+
+When you perform a bandwidth equation, be sure to solve for *bytes*, as that is
+what these rates measure.
+
+All types of DDR1 (the original DDR) RAM run at *2.5* V.
+
+How do you solve for data transfer rate using megatransfers? *X MT/s x 8 = Data
+Transfer Rate*
+
+What is the data transfer rate of DDR-200 RAM? *1600 MB/s: 200 MT/s x 8 = 1600
+MB/s*
+
+The DDR DIMM has *184* pins and a specifically placed notch to enforce proper
+slots.
+
+Laptops use smaller configurations of DDR with different pin configurations
+known as *SODIMMS*.
+
+DDR2 builds on DDR1 by decreasing ___ and increasing ___. *voltage; speed*
+
+DDR2 RAM runs at *1.8* V.
+
+DDR2 increases speed through *faster signaling, which requires additional
+pins*.
+
+Standard DDR2 DIMMs have *240* pins.
+
+Can you use a DDR2 stick in a DDR1 slot? *no*
+
+What is the data transfer rate of DDR2-800? *800 MT/s x 8 = 6,400 MB/s*
+
+DDR2 DIMMs have *240* pins.
+
+Can you place DDR3 modules in DDR2 or DDR1 slots? *No-- DDR3 is not
+backwards-compatible*
+
+DDR3 uses a voltage of *1.2 to 1.5 V*.
+
+How can you get the clock speed from a DDR standard name? *I/O Clock speed is
+half of the standard name's value, in MH/z*
+
+How can you get the Megatransfers per second from a DDR standard name? *The
+MT/s matches the standard name's value.*
+
+How can you get the module name from a DDR3 standard name? *The module name is
+PC3-X, where X is the data transfer rate, as can be calculates from the module
+name's value with (MT/s x 8 = DTR)*
+
+What are the clock speed, MT/s, Transfer rate, and module name of DDR3-800?
+*Clock speed: 400 MHz; 800 MT/s; Transfer rate: 6400 MB/s; Module Name: PC3-6400*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-1066? *1. 533 MHz; 2. 1066 MT/s; 3. 8533 MB/s; 4. PC3-8500*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-1333? *1. 667 MHz; 2. 1333 MT/s; 3. 10667 MB/s; 4. PC3-10600*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-1600? *1. 800 MHz; 2. 1600 MT/s; 3. 12800 MB/s; 4. PC3-12800*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-1866? *1. 933 MHz; 2. 1866 MT/s; 3. 14933 MB/s; 4. PC3-14900*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-2133? *1. 1066 MHz; 2. 2133 MT/s; 3. 17066 MB/s; 4. PC3-17000*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR3-2400? *1. 1200 MHz; 2. 2400 MT/s; 3. 19200 MB/s; 4. PC3-19200*
+
+Given a sticker on a DIMM with the labels 'KVR1333D3N9HK2/8G', 'Kit of 2',
+and '1.5V', what are the 1. DDR standard, 2. Capacity, and 3. Voltage? *the
+standard is DDR-1333 (from '1333' and 'D3'); the capacity is 8GB (from '8G'), but only when installed
+as a kit of two modules ('Kit of 2'); and the memory runs at 1.5V.*
+
+How can you solve for data transfer rate from the clock speed of a DDR3 module?
+*Double the clock speed gives the megatransfers, which can then be multiplied
+by 8 to solve for bandwidth*
+
+How can you solve for data transfer rate from the module name of a DDR3 module?
+*The data transfer rate is in the module name: e.g. PC3-10600 can transfer
+10,600 MB/s*
+
+The voltage range for DDR4 is *1.2 to 1.35 V*.
+
+DDR4 improves upon DDR3 with *higher module density; higher data transfer
+rate*.
+
+Is DDR4 backward-compatible? *no*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR4-2133? *1. 1066 MHz; 2. 2133 MT/s; 3. 17000 MB/s; 4. PC4-17000*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR4-2400? *1. 1200 MHz; 2. 2400 MT/s; 3. 19200 MB/s; 4. PC4-19200*
+
+How many tansfer are there at a rate of 2133 MT/s? *2.133 Billion
+transfers/second*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR4-2666? *1. 1333 MHz; 2. 2666 MT/s; 3. 21300 MB/s; 4. PC4-21300*
+
+What are the 1. Clock Speed, 2. MT/s, 3. Transfer Rate, and 4. Module Name of
+DDR4-3200? *1. 1600 MHz; 2. 3200 MT/s; 3. 25600 MB/s; 4. PC4-25600*
+
+In modern computers, there is a ___-bit bus (or data channel) between the
+memory and the ___. *64; memory controller*
+
+In single channel, one or more sticks of RAM can be installed, but they share
+the same *channel*.
+
+How does dual-channel architecture double the data thoroughput? *Two separate
+64-bit channels are employed together, resulting in a 128-bit bus*
+
+How do the memory banks appear on a motherboard supporting dual-channel
+architecture? *The motherboard will have color-coded matching banks*
+
+How do you install a pair of modules to a dual-channel motherboard? *Install
+the modules to matching colored banks*
+
+If you have a new dual-channel motherboard with two pairs of banks/four slots, named DIMM
+1 (blue), DIMM 2 (Blue), DIMM 3 (Black), and DIMM 4 (Black), how should you
+install the first pair of modules? *You want to install sequentially based on
+naming, so you would install your first two module the the blue slots, DIMM 1
+and DIMM 2.*
+
+What should be considered when purchasing RAM sticks to serve as a pair in a
+bank? *The DIMMs should be identical for best performance. You want the
+capacity, speed, and number of chips to be the same.*
+
+Triple-channel architecture access three memory modules simultaneously,
+effectively creating a *192*-bit bus.
+
+What two configurations may a triple-channel architecture have? *1. A
+motherboard may have three channels of two differen color memory slots each. 2.
+Three matching slots (e.g. all blue) and a separate color slot (e.g. black)
+that can be used for single-channel mode if triple-channel isn't used.*
+
+Quad-channel is common in computers that use *DDR4*.
+
+What happens if you install less than four modules to a motherboard set up for
+quad-channel architecture? *The architecture will work, but will downgrade to
+the architecture using that number of modules (if you install two modules, you
+get dual channel, if you install three modules you get triple-channel)*
+
+Memory latency or Column Access Strobe (CAS) occurs when *a memory controller
+tries to access data from a memory module*.
+
+What is latency? *Latency is a slight delay (usually in nanoseconds)while the
+memory module responds to the memory controller*
+
+Latency is given a reating of *CAS (aka the CL)*.
+
+Single-sided refers to a memory module with *a single bank of chips*.
+
+What is double-sided memory? *Double-sided memory modules have their chips
+divided into two sides, or banks. Only one 'side' can be seen by the computer
+at any one time, and must switch to see the other.*
+
+What happens when single-sided memory has chips on both physical sides of the
+stick? *It doesn't matter-- single-sided memory may have chips on one or both
+sides of the physical stick. What's significant is that the computer can see
+all of the chips at any given time. Double-sided meanwhile, logically has two
+'sides' and only one or the other may be seen by the computer at any given
+moment.*
+
+RAM parity is when *memory stores an extra bit (known as a parity bit) used for
+error detection*.
+
+What is ECC? *Error Correction Code (ECC) in RAM can detect or correct errors.
+This is the slowest and most expensive type of RAM.*
+
+What type of RAM is a module named PC3-10600E likely to be? *DDR3 ECC*
+
+What is registered memory? *Registered memory (aka 'buffered memory') improves
+signal integrity between RAM and the memory controller vy electrically
+buffering the signals using an extra register. This can cause additional
+latency.*
+
+What type of RAM would PC3-10600R likely be? *DDR3 registered memory*
+
+How does fully buffered memory work? *Fully buffered memory builds upon
+registered memory with an advanced memory buffer between the module and
+controller. It requires an entirely different memory module with a notch in a
+different location, making it incompatible with motherboards supporting regular
+DDR or registered DDR. IThis kind of module is known as a FB-DIMM*
+
+What type of memory module would PC3-10600F likely be? *DDR3 Fully-buffered
+memory; This could also apply to a module PC3-10600FB*
+
+Name the pinouts of DDR1, DDR2, DDR3, and DDR4. *184; 240; 240; 288*
+
+Which knows the location of bytes in memory: the CPU or the memory controller?
+*The memory controller knows: The CPU knows what bytes it wants, but not the
+location of those bytes.*
+
+Simply out, what are the steps to install a stick of RAM? *Orient the RAM
+properly; Insert the RAM into the slot; Press down until the ears lock*
+
+How can you orient RAM propery before insertion? *Check the notch on the
+module; there should be a proportionate break in the slot on the motherboard.*
+
+How can you carefully press the module down into the slot? *Keep the thumbs as
+close to the edge as possible in order to keep pressure evenly distributed*
+
+How should you test correct installation of RAM? *Boot into BIOS and check that
+the RAM type and speed are properly recognized.; Access the OS and make sure it
+boots correctly.; View the RAM within Windows via System or Task Manager
+(checking capacity) or use CPU-Z.; Try testing the RAM by opening several
+applications and watching for issues or delays.*
+
+If you were to install one stick of DDR3-1333 and one stick of DDR3-1066, into
+a motherboard supporting both speeds, what would happen? *The system would run
+at the lower speed of 1066.*
+
+What is underclocking? *Underclocking is when you install RAM of two different
+supported speeds, causing the system to run at whichever speed is lower.*
+
+What might need to be done when installing the latest type of RAM that a motherboard
+can support? *It's likely that you'll need to flash the BIOS, especially in a
+multichannel environment*
+
+What is the first thing to check if a user has installed new RAM and it isn't
+working? *Verify RAM compatibility-- no matter what the user says*
+
+If the computer will not boot, what troubleshooting steps should be taken?
+*Verify compatibility; check RAM seating; Clean the RAM and slot if necessary;
+If the computer has two memory modules, try booting with just one or try moving
+RAM to different slots; Test the memory with a known good module.*
+
+What is a heatspreader? Why might they be needed? *Heatspreaders are copper or aluminum heat sinks, just
+like that used by the CPU. RAM can overheat and cause intermittent shutdowns*
+
+If BIOS indicates a memory error, what troubleshooting steps should one take?
+*This is indicated by BIOS through a grey message on the screen and a flashing
+cursore or beeps. If beeps, reference the motherboard documentation for beep
+codes.; A BIOS setting may be incorrect-- try restoring a saved version of BIOS
+if available, or reset to BIOS defaults.; If nothing else, a BIOS update may
+fix it.*
+
+How can RAM be associated with a stop error/BSOD? *While these are usually due
+to device driver errors (poor code), they can be associated with a physical
+fault in memory. A nonmaskable interrupt (NMI) can interrupt the processor to
+gain its attention regarding nonrecoverable hardware errors, resulting in a
+BSOD*
+
+How should you respond to a BSOD? *If there's one BSOD, you can probably ignore
+it (per the author/CompTIA!!). If it happens repeatedly, however, write down
+the information on the stop error screen and reference it to troubleshoot.*
+
+What can cause page faults (hard faults), out-of-memory erros or
+low-on-virtual-memory errors? *These are usually issues with the application or
+OS that was running. However, if a particular application keeps failing, or you
+get a message listing a particular memory location repeatedly, it can indicate
+a problem with RAM.*
+
+What can cause a general protection fault (GPF)? *These are uncommon and are
+usually related to the OS, running applications, and CPU. It is possible that
+memory errors can cause a GPF.*
+
+How can you test memory? *Programs such as third-party MemTest86 and the
+Windows Memory Diagnostics Tool can be used to test memory.*
+
+How can you access the Memory Diagnostic Tool? *Run msched.exe; from the
+Windows Recovery Environment*
