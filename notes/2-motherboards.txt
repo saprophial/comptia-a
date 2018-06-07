@@ -1,0 +1,309 @@
+What should you do if you don't have the original documentation accompanying a
+device? *Check the manufacturer's website for technical documents*
+
+What name does Intel use for the chipset? *Intel refers to it as the Platform
+Controller Hub (PCH)*
+
+What does the initialism SPI refer to? *SPI is the Serial Peripheral Interface,
+which is used for connecting to the BIOS*
+
+What is the DMI bus? *The Direct Media Interface link, Intel's high-speed,
+point-to-point interconnection between the chipset and the processor, is also
+referred to as the DMI bus*
+
+How many wires can a bus have? What names exist for a given number of wires? *A
+bus can be one wire, called serial; A bus can consist of a group of wires
+working in unison, called parall*
+
+What is the function of a data bus? *A data bus carries data from one place to
+another via wires*
+
+What is a lane? What connections use lanes? *A lane is composed of two serial
+(single) wires that enable the sending and receiving of data simultaneously;
+DMI and PCI use lanes*
+
+Desribe the functionality of parallel buses. *Parallel buses are normally
+designed in multiples of eight wires that can send one byte (8 bits) of data at
+a time in one direction*
+
+The DMI carries data traffic from ____ to ___. *The various device controllers
+handled by BIOS and the chipset; The processor*
+
+The motherboard chipset historically consisted of what two chips?
+*Northbridge; Southbridge*
+
+What was the Northbridge responsible for? *The Northnridge is responsible for
+the connection to high data transfer devices such as PCI Express video cards
+and the RAM*
+
+What was the Southbridge responsible for? *The Southbrudge is in charge of the
+connection to all secondary controllers, such as USB, SATA, FireWire, and so
+on*
+
+What is an on-die northbridge? *an on-die northbridge refers to when
+northbridge functionality is built directly into the processor.*
+
+What is HyperTransport? *HyperTransport is AMD's connection between the
+northbridge and the processor, similar to Intel's DMI bus.*
+
+What names did Intel give the northbridge and southbridge on its older
+motherboards? *The northbridge was known as the Memory Controller Hub (MCH) and
+the southbridge was the I/O Controller Hub (ICH)*
+
+Why do required computer software applications affect choice of chipset? *Some
+applications prefer or even require specific chipsets (and CPUs)*
+
+The main type of drive technology on mothervoards is *Serial ATA (SATA)*.
+
+SATA always connects to the *southbridge, or simply the chipset if there is
+only one chip*.
+
+SATA supports the connection of ____ and ___. *hard drives; optical drives*
+
+What is IDE in the contect of motherboards? *The older Integrated Drive
+Electronics technology was the predecessor since eclipsed by SATA, and it
+utilized the Parallel ATA (PATA) standard.*
+
+What are the two main expansion buses? *PCI and PCI Express (PCIe)*
+
+The most powerful PCIe slots with the highest data transfer rates connect
+directly to the ___ or directly to the ___. *Northbridge; processor*
+
+Lesser PCIe slots connect to the *southbridge (or the main chipset if only one
+chip)*.
+
+PCIe's expansion bus sends and receives data within ___. These are
+full-duplex, meaning ___. *Lanes; they can send and receive data
+simultaneously*
+
+How do you denote the number of lanes a PCIe bus uses? *This is indicated with
+an x and a number, e.g. PCIe x 1*
+
+Will a PCIe x4 card fit in a x1 slot? Will it fit in a x16 slot? *A PCIe x4
+slot will not fit in a x1 slot, but it will fit in a x16 slot (albeit with no
+increase in performance over a x4 slot)*
+
+What does PCI stand for? *Peripheral Component Interconnect (bus)*
+
+PCI connects exclusively to the *southbridge (or main chipset)*.
+
+PCI version 2.1 cards are rated at __ MHz and their corresponding PCI bus is __ bits wide, allowing a max data transfer rate of __/s. *66; 32; 266*
+
+Name two derivatives of PCI and their purpose. *PCI-X was designed for servers; Mini PCI is used by laptops*
+
+Who expansion bus type is more commonly seen on modern motherboards? *PCIe*
+
+What are the bus widths of PCIe, PCI, and PCI-X? *PCIe: the bus is serial, consisting of between 1 and 16 full-duplex lanes; PCI: 32 bit; PCI-X: 64-bit*
+
+What is the frequency and max data rate of PCIe Version 1? *2.5 GHz; 2 Gb/s (250 MB/s) per lane*
+
+What is the frequency and max data rate of PCIe Version 2? *5  GHz; 4 Gb/s (500 MB/s) per lane*
+
+What is the frequency and max data rate of PCIe Version 3? *8  GHz; 8 Gb/s (1 GB/s) per lane*
+
+What is the frequency and max data rate of PCIe Version 4? *16 GHz; 16 Gb/s (2 GB/s) per lane*
+
+What are the two grequencies and max data rates available on PCI? *33 MHz to 133 MB/s; 66MHz to 266 MB/s*
+
+What three frequency and max data rate pairings are available from PCI-X v1.0 and v2.0? *v1.0: 133 MHz to 1066 MB/s (1 GB/s);v2.0: 266 MHz to 2133 MB/s (2 GB/s) and 533 MHz to 4266 MB/s (4 GB/s)*
+
+Why should one take maximum data transfer rates with a grain of salt? *Actual thoroughput will always be substantially lower*
+
+What connection type is referred to as IEEE 1394? *FireWire*
+
+USB stands for *Universal Serial Bus*.
+
+RJ45 is used for the *wired network* connection.
+
+What is defined by a form factor? *The size and layout of components on the motherboard; The power outputs from the power supply to the motherboard*
+
+Name the three most common form factors. *ATX; microATX; ITX*
+
+ATX stands for *Advanced Technology Extended*.
+
+Full-size ATX motherboards measure *12 inches x 9.6 inches (305mm x 244 mm)*
+
+Which motherboard model has in integrated port cluster on the back and normally ships with an I.O plate that snaps into the back of the case? *ATX*
+
+How are RAM slots and expansion bus slots typically laid out in relation to each other on an ATX motherboard? *The RAM and expansion bus slots are perpendicular to each other.*
+
+The ATX specification calls for the power supply to produce what voltage outputs? *+3.3V; +5V; +12V; -12V; plus a 5V standby output*
+
+What is a rail with respect to PSUs? *A rail, aka a voltage rail, refers to a single voltage provided by a PSU*
+
+The original ATX specification calls for a *20*-pin power connector, also referred to as a P1.
+
+The newer ATX12V Version 2.x calls for a *24*-pin power connector.
+
+What voltage does an orange pin indicate? *+3.3V*
+
+What voltage does a black pin indicate? *None- ground signal*
+
+What voltage does a red pin indicate? *+5V*
+
+What voltage does a blue pin indicate? *-12V*
+
+What voltage does a yellow pin indicate? *+12V*
+
+What signal does a green pin indicate? *Power on*
+
+What signal does a gray pin indicate? *Power good*
+
+What voltage does an optional white pin indicate? *-5V*
+
+MicroATX can be a maximum size of ___ and as small as ___. *9.6 x 9.6" (244 x 244 mm); 6.75 x 6.75" (171.45 x 171.45 mm)*
+
+Can a microATX board be installed within an ATX form factor case? *Yes- most microATX boards can use an ATX case and microATX uses the same power connector as ATX. They also often have the same chipsets as ATX*
+
+What type of motherboard is ITX designed for? *the ITX group of form factors is designed for small, low-power motherboards*
+
+What are the main four types of ITX motherboard? *Mini-ITX; Nano-ITX; Pico-ITX; Mobile-ITX*
+
+Whuch ITX form factor measures 6.7 x 6.7"  and can be used in ATX and microATX cases? *Mini-ITX*
+
+Which ITX standard measures 4.7 x 4.7" and features low power consumption? *Nano-ITX*
+
+Which ITX standard measures 3.9 x 2.8" and requires active cooling die to powerful processors and RAM? *Pico-ITX*
+
+Which ITX form factor measures 60 x 60mm, has no ports, and requires a secondary I/O board? *Mobile-ITX*
+
+What is BTX? *BTX is the Balanced Technology Extended form factor*
+
+What does UEFI stand for? *Unified Extensible Firmware Interface*
+
+What is UEFI? *UEFI is the predominant type of firmware shipped with motherboards, a successor to BIOS*
+
+Bootstrapping is *the process of booting without external input, loading the basic software into the memory of a computer after power on. This involves POST and then passing control to the operating system*
+
+Originally, the BIOS was stored on a ___ chip, and later progressed to a ___ chip. *Read Only Memory (ROM); Programmable ROM (PROM)*
+
+Today's system BIOS resides on a ___ chip on the motherboard. *EEPROM - Electrically Erasable Programmable ROM)*
+
+With EEPROM, you can flash the BIOS - what does this mean? *'Flashing the BIOS' refers to fully updating the BIOS by erasing and rewriting it*
+
+What does UEFI's secure boot mode do? *Prevents digitally unsigned drivers from being loaded; helps prevent rootkits from manifesting themselves*
+
+What advantages does UEFI have over BIOS? *Allows for a mouse-driven firmware setup program; faster startup times; supports more partitions (128) and larger drive sizes*
+
+The *complimentary metal-oxide semiconductor (CMOS)* stores the contents of the BIOS's findings.
+
+Is the CMOS volatile or nonvolatile? *The COMOS is volatile-- using a lithium battery it retains charge while the computer is shut off. If it loses power, it loses its contents*
+
+What type of battery charges the CMOS? *CR2032*
+
+What is the shelf life of the CMOS battery? *2 to 10 years, depending on usage*.
+
+What does POST stand for? *POST is the power on self-test, the first step in bootstrapping*
+
+What does the POST do? *POST is a piece of code on the BIOS that run on power on to find out which type of processor is on the motherboard and verifies the amount of RAM. It also identifies buses on the motherboard as well as which devices are available for booting*
+
+The BIOS indicates any system problems that the POST finds by either ___ or ___. *On-screen display codes; beep codes*
+
+Where can you find information on BIOS error codes? *In the motherboard documentation; on the motherboard manufacturer's website*
+
+What can you do to more carefully examine the results of a POST when the display is blank? *Some motherboards have built-in LEDs which show error codes; Use a POST asapter card, inserted into an adapter card slot (usually PCI); Use a USB-based POST tester*
+
+What does a code of 00 or FF on a POST card after booting indicate? *Everything is probably okay*
+
+Where can you update time and date settings outside of an operating system? *In BIOS/UEFI*
+
+Where in BIOS can you change the order of which media will be booted? *Boot Device Priority*
+
+The *Windows Boot Manager* is the primary boot file in Windows, and is what shows in the boot order for Windows.
+
+What can you find in the Passwords section of the BIOS? *You can set two passwords on most BIOS: User and Supervisor/administrator. The User password authenticates a user before the operating system is enabled to boot. The administrator password authenticates a user to access the BIOS itself.*
+
+What is the ACPI? *Advanced Configuration and POwer Interface-- this BIOS feature enables the OS to take full control of power management.*
+
+Where can you find the ACPI? *In BIOS, under Power Management*
+
+What BIOS tool enables you to wake up the computer remotely by sending data to it through the network adapter? *Wake-on-Lan (WoL)*
+
+An acceptable processor operating temperature range is *between 60 and 75 degrees Celsius (140 to 167 degrees Fahrenheit)*.
+
+Where in BIOS can you check on the temperature of the processor? *Monitoring*
+
+What can you view in the Monitoring feature of BIOS? *Processor temperature; Processor fan and case fan speeds; Voltage*
+
+Where can you access the intrusion detection features? *In BIOS, under Monitoring*
+
+If you want to be extra careful with your CPU and reduce the temperature threshold at which the system shuts down, where can you look? *In BIOS, under Monitoring, you can increase or reduce this threshold*
+
+How can you enable virtualization on your PC? *In BIOS, look for Virtualization support, often in a CPU submenu.*
+
+What do Intel and AMD name their virtualization technologies? *Intel: Intel Virtualization Technology, or Intel VT; AMD: AMD-V*
+
+How can you enable and disable USB ports? *Via the BIOS*
+
+What should you do if a user sets a supervisory password in the BIOS and forgets it? *remove and reinsert the CMOS batteryYou may also need to access the CMOS jumper*
+
+How can you modify a BIOS configuration jumper block, or CMOS jumper? *the CMOS jumper, a typically 3-pin jumper near the CMOS battery, has three settings: Normal, Configuration, and Recovery. If you set the jumpers as needed for COnfiguration, you can access the BIOS wihout a password.*
+
+Flashing the BIOS is the term given to the process of *erasing the BIOS firmware and reqriting it with a new version of the BIOS* It is sometimes called updating the BIOS.*
+
+If you build a new computer, you should check for a *BIOS* update before installing an OS.
+
+What are the two most common methods of flashing the BIOS? *Do it from within Windows; Use a bootable media, like CD-ROM or USB, and boot the system and rewrite the BIOS*
+
+What are the most common steps in flashing the BIOS? *Identify what BIOS you're running; Download the update BIOS from the Web; Select your method of BIOS updating; Flash the BIOS - run the flash update from the appropriate media*
+
+How can you check your BIOS version? *Access the BIOS and check the main menu*
+
+What formats will a new BIOS version usually come in? *.zip;.exe;.iso*
+
+What is an express BIOS update? *An express BIOS update can be performed within
+Windows-- simply double-click the BIOS file and install*
+
+What safety protocol should be observed when updating BIOS from a flash drive
+or CD? *If an error occurs, it's critical to have a BIOS recovery file-- this
+can be made using third-party programs or with programs which accompany some
+motherboards*
+
+What features of a new motherboard should one consider before purchase?
+*Form factor compatibility with case; Processor compatibility; Necessary
+expansion and I/O ports; whether specific critical applications require a
+particular chipset; In case of a replacement, make sure the motherboard is
+compatible with the existing system and that it can connect to all components*
+
+What housing feature affects the placement of the motherboard inside of a case?
+*Standoffs in the case need to align with predrilled holes in the motherboard.
+You never want to place a motherboard on top of a standoff that it isn't
+drilled into for risk of slectrical damage*
+
+What is breadboarding? *With breadboarding, a motherboard is tested and
+troubleshot while still outside of the case, with components already attached*
+
+How many pins are in the power cable connector to the motherboard? *24 pins*
+
+What do case connectors fitted to the motherboard do? *Case connectors connect
+to items such as the power button, the reset button, and to LED lights*
+
+What is the order of steps in installing/replacing a motherboard? *Employ ESD;
+Ready the case (Line up the motherboard); Install the motherboard (screw it in
+to the standoffs); Connect cables to power, case connectors, and any front
+panel ports; Install components (hard drives, optical drives, etc); Test the
+installation (test the BIOS and make sure components are corectly identified)*
+
+How can a lithium battery be directly tested? *Using a multimeter: the CR2032
+lithium battery has a nominal voltage of 3.0 V. If it measures below 2.0 V, it
+has discharged to the point that it can no longer reliably lower the CMOS*
+
+How can the CMOS battery be removed? *Using something nonmetallic, you can
+remove the battery by pushing on a tab and gently prying it out*
+
+What is commonly the cause of a PC booting to BIOS instead of booting normally
+to the OS? *Faulty CMOS battery*
+
+PCB stands for *Printed Circuit Board*
+
+What would be an important step to take if the integrated SATA controller
+failed and had to be replaced? *After installing s separate SATA controller
+card, it would be critical to disable the original integrated SATA controller
+in the BIOS (after connecting the hard drives to the new controller)*
+
+What occurs with the problem of distended capacitors? *Distended capacitors
+manifest when a capacitor becomes swollen and possibly leaks electrolytic
+material. This bulging can cause errors such as BSODs or random
+restarts/shutdowns. As it is time-consuming to attempt replacement of
+capacitors, it's advised that you replace the motherboard in a case of
+distended capacitors*

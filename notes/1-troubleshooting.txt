@@ -1,0 +1,69 @@
+Name the six steps of troubleshooting: *1: Identify the problem; 2: Establish a
+theory of probable cause; 3. Test the theory to determine cause; 4. Establish a
+plan of action to resolve the problem and implement the solution; 5. Verify
+full system functionality and, if applicable, implement preventative measures;
+6. Document findings, actions, and outcomes*
+
+What are some of the actions one should take in step one of the troubleshooting
+process? *To identify the problem, one can: 1. Question the user; 2. Identify
+any changes made to the computer; 3. Review any available documentation*
+
+What are some of the actions one should take in step two of the troubleshooting
+process? *Theorize as to what the most likely cause of the problem is: Start
+with the most probable or obvious cause; Define whether the problem has to do
+with hardware or software; Conduct internal or external research based on
+symptoms; Ultimately, come up with a logical theory explaining the root of the
+problem*
+
+What are some of the actions one should take in step three of the troubleshooting
+process? *Test the theory formulated in step two; If the theory fails during
+testing, go back to step two and formulate a new theory-- repeat until a theory
+tests positive; If you can't figure out the problem from any theory, escalate
+the problem by bringing it to a supervisor in order to establish further
+theories*
+
+What are some of the actions one should take in step four of the troubleshooting
+process? * Establish a plan of action to implement a solution; Have any
+appropriate parties sign off on the plan before proceeding; implement the
+solution*
+
+What are some of the actions one should take in step five of the troubleshooting
+process? *Verify whether the computer works properly; Establish measures to
+prevent the problem from occurring in the future if possible; Ensure that
+preventative measures don't interfere with any other systems or policies-- if
+they do, get permission for your measures first*
+
+What are some of the actions one should take in step six of the troubleshooting
+process? *Document the issue, cause, solution, preventative measures, and any
+other steps taken*
+
+When you run out of possible theories to explain a problem, you should
+*escalate the problem*.
+
+What should you do after testing a theory to determine cause? *Establish a plan
+of action to resolve the problem*
+
+Name the ten basic PC tools: *Antistatic strap; Demagnetized phillips head
+screwdriver; Multimeter; Power Supply Tester; Torx screwdriver; Hex
+screwdriver; Plastic tweezers; Compressed air; Penlight; Magnifying glass*
+
+What is the purpose of a multimeter? *For testing wires in a PC as well as AC
+outlets*
+
+What is the purpose of a power supply tester? *Testing a PC's power suppply.
+Also known as a PSU*
+
+What is the purpose of a torx screwdriver? *For (dis)assembling computers that
+use the less common Torx screw (you use sizes T10 and T8 for PCs and smaller
+sizes for laptops*
+
+What is the purpose of a hex screwdriver? *For cases and other components that
+do not use Phillips screws*
+
+What is the purpose of plastic tweezers? *For grabbing screws that fall into
+difficult-to-reach areas and for removing jumper shunts. A parts grabber is
+also good for this*
+
+What items and methods are crucial for protecting PC components when being
+worked on? *Antistatic strap; antistatic mat; touching unpainted chassis or the
+PSU of the computer for grounding*

@@ -1,4 +1,4 @@
-All of the machine language commands that the CPU understands makew up the
+All of the machine language commands that the CPU understands make up the
 CPU's *instruction set*.
 
 What is the function of the clock wire? *It tells the CPU, via a charge, that
