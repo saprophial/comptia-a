@@ -1,0 +1,58 @@
+Name the packaging, manufacturer, and number of contacts in Socket H2. *LGA
+Packaging; 1155 contacts; Intel CPU socket.*
+
+A CPU design based on instruction set that tries to improve speed by utilizing
+relatively few and simple instructionsis known as *RISC (Reduced Instruction
+Set Computer)*.
+
+Name the packaging, make, and number of contacts of Socket H/H1. *LGA
+packaging; Intel; 1156 contacts*
+
+The bus between the CPU and the internal memory cache (L2) inside the CPU
+housing is known as the *back-side bus (BSB)*.
+
+A set of Intel CPU hardware enhancements improving support for virtualization
+is known as *VT-x*.
+
+Name the packaging, make, and number of contatcs of Socket B. *LGA packaging;
+Intel; 1366 contacts*
+
+The bus between the CPU and the northbridge is called *front-side bus (FSB)*.
+
+An additional ATX12V power connector designed to supply dedicated power for the
+CPU is known as *P4 connector*.
+
+Name the packaging, make, and number of contacts of Socket H3. *LGA; Intel;
+1150 contacts*
+
+What is the ALU? *Arithmetic Logic Unit*
+
+Name five Intel CPUs designed for desktop/workstation computers. *Celeron;
+Pentium; Core i3; Core i5; Core i7*
+
+Name a server-dedicated CPU series by AMD. *Opteron*
+
+Name the packaging, make, and number of contacts of Socket R. *LGA; Intel;
+2011*
+
+Name two Intel CPU server brands. *Xeon; Itanium*
+
+The NX bit technology implemented by AMD is called *EVP (Enhanced Virus
+Protection)*
+
+Name three AMD CPU brands designed for desktops/workstations. *Athlon; Phenom;
+FX*
+
+Name the packaging, make, and contacts of Socket FM2. *PGA-ZIF; AMD; 904*
+
+Name the packaging, make, and contacts of Socket FM2+. *PGA-ZIF; AMD; 906*
+
+Name the packaging, make, and contacts of Socket AM3. *PGA-ZIF; AMD; 941*
+
+Name the packaging, make, and contacts of Socket FM1. *PGA-ZIF; AMD; 905*
+
+A security feature used by CPUs for isolating areas of memory in order to
+prevent code execution from non-executable memory locations is known as
+*No-eXecute bit (NX bit)*.
+
+

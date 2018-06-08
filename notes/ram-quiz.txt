@@ -1,0 +1,43 @@
+SDR SDRAM modules use *168* contact pins.
+
+The industry (module) name for DDR-333 modules is which: PC-2100, PC-2400,
+PC-2700, or PC-3200? *PC-2700*
+
+What is the peak transfer rate of a DDR-266 module? 1600 MB/s, 2133, 2666, or
+3200. *2133*
+
+DDR2 SDRAM has ___ contact pins, reads/writes __ words of data per clock cycle,
+and has __ notch(es) on the contact surface. *240; 4; 1*
+
+What is a word of data? *A word is the natural size with which a processor is
+handling data (the register size)*
+
+DDR3 SDRAM  has __ contact pins, reads/writes __ words of data per clock cycle,
+and has __ notch(es) on the contact surface. *240; 8; 1 notch*
+
+Does a DIMM have electrical contacts separately on each side of the module, or
+unified contact surface spanning both sides of the module? *Separate contacts
+on each side*
+
+O-DIMM DDR SDRAM modules use *200* pins.
+
+DDR2 SO-DIMM modules can have how many pins? *144; 200*
+
+SO-DIMM DDR3 SDRAM modules use *204* pins.
+
+MicroDIMM DDR SDRAM modules use *172* pins.
+
+MicroDIMM DDR2 SDRAM modules use *214* pins.
+
+Can ECC type RAM correct detected errors? *Yes*
+
+A type of expensive module with additional circuitry designed to improve
+stability and data processing accuracy is known as *RDIMM (Registered DIMM)*
+
+What do RDIMM and UDIMM refer to? *RDIMM = Registered/buffered memory. UDIMM =
+Unregistered/unbuffered memory*
+
+Which of these memory types allows for permanent storage of data? VRAM,
+DVD-RAM, SRAM, Buffered memory, or DRAM. *DVD-RAM*
+
+VRAM stands for *Video RAM*
